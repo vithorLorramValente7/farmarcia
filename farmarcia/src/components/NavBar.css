@@ -1,0 +1,65 @@
+:root{
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+    --cor-5: #e6e6e6;
+    --cor-6: #ef97a4;
+}
+
+.nav_bar_container{
+
+    border: solid black;
+width: 100%;
+height: 10vh;
+background-color:var(--cor-6) ;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+
+
+.input_pesquisa{
+
+width:400px ;
+height: 40px;
+border-radius: 20px;
+border-color: var(--cor-4);
+
+}.button_farmarcia{
+
+    width:300px;
+    height:40px;
+background-color: var(--cor-4);
+color: #ffffff;
+border-color:var(--cor-3);
+border-radius: 15px;
+
+}:focus{
+    outline: 0;
+
+
+}.button_farmarcia:focus{
+
+    outline: 0;
+}
+/* peguei da internet */
+table{ border-spacing:0px; border:1px solid #000; }
+td{ border:1px solid #000; padding:30px;}
+td.spc{ position:absolute; left:1px;}
+td.sp{ position:relative; width:1px;}
+td.nm{ position:absolute; left:1px; border-right:none;}
+td#br{ position: absolute; z-index:1; border:none;  }
+
+input[type=text]{
+    
+    outline-color:var(--cor-4);
+    padding:20px;
+    border:2px solid white;
+    box-sizing: border-box;
+    font-size:25px;
+    width:270px;
+    height: 30px;;
+}
