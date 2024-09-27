@@ -1,0 +1,44 @@
+
+:root{
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+    --cor-5: #e6e6e6;
+    --cor-6: #ef97a4;
+
+
+}
+
+
+.container_rodape{
+background-color:var(--cor-3) ;
+display: flex;
+justify-content: space-evenly;
+margin-top: 8%;
+}.informacoes_Farmarcia{
+color: var(--cor-2);
+
+
+}
+.icon_zap{
+width: 40px;
+height: 40px;
+margin-bottom: 30px;
+margin-right: 10px;
+
+}.container_zap{
+display: flex;
+flex-direction: row;
+
+justify-content: space-evenly;
+
+
+}
+
+.container_contatos{
+
+
+height: fit-content;
+width: fit-content;
+}

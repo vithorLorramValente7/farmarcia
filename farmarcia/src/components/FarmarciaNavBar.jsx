@@ -11,9 +11,12 @@ function FarmarciaNavBar() {
       
       <img src="/images/LogoImagemL.png" alt="" />
       
-      <input type="text" className='input_pesquisa'/>
+  
         
         <button className='button_farmarcia'>politica da empresa</button>
+        
+        <input type="text" className='input_pesquisa'/>
+        
         <button className='button_farmarcia'>roupas</button>
         <button className='button_farmarcia'>carinho🚗</button>
         
